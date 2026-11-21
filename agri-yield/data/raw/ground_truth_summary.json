@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "target_rows": 350000,
+    "random_seed": 42,
+    "created_at": "2026-11-20T12:14:32.832820",
+    "districts": [
+      "Nagpur",
+      "Wardha",
+      "Amravati",
+      "Yavatmal",
+      "Chandrapur",
+      "Bhandara"
+    ],
+    "crops": [
+      "soybean",
+      "cotton",
+      "tur",
+      "rice",
+      "wheat",
+      "gram",
+      "jowar"
+    ],
+    "years_covered": [
+      2006,
+      2024
+    ],
+    "drought_years": [
+      2009,
+      2014,
+      2015,
+      2018
+    ]
+  },
+  "defect_summary": {
+    "mandi_price_in_rs_per_kg": {
+      "count": 60637,
+      "percentage": 17.5,
+      "conversion": "divided_by_100_to_represent_Rs_per_kg"
+    },
+    "missing_rainfall": {
+      "total_missing_cells": 355818,
+      "total_rainfall_cells": 5544000,
+      "missing_percentage": 6.42,
+      "multi_week_block_rows_count": 20790
+    },
+    "yield_unit_errors": {
+      "kg_per_ha_count": 8662,
+      "tonnes_per_ha_count": 8662,
+      "total_yield_unit_defects": 17324,
+      "percentage": 5.0
+    },
+    "spelling_mistakes": {
+      "district_typo_count": 6930,
+      "crop_typo_count": 8662,
+      "total_typos": 15592
+    },
+    "outliers": {
+      "yield_outliers": 350,
+      "area_outliers": 200,
+      "price_outliers": 150,
+      "soil_ph_outliers": 150,
+      "total_outliers": 850
+    },
+    "mixed_date_formats": {
+      "YYYY-MM-DD": 207900,
+      "DD/MM/YYYY": 51975,
+      "MM-DD-YYYY": 34650,
+      "DD-b-YYYY": 34650,
+      "YYYY/MM/DD": 17325
+    },
+    "duplicates": {
+      "duplicate_rows_added": 3500,
+      "total_rows_final": 350000,
+      "percentage": 1.0
+    }
+  }
+}

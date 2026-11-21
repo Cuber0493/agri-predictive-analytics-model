@@ -1,0 +1,13 @@
+{
+  "true_fix": false,
+  "n_wrong_fix_test": 68,
+  "mae_all": 1.5046584338792353,
+  "mae_excluding_wrong_fix": 1.4955043802624437,
+  "record_id": "REC_0340473",
+  "actual": 4.7,
+  "pred": 31.00367666833067,
+  "err": 26.30367666833067,
+  "z": -3.1703855825735596,
+  "unit_fix": "kg_to_quintal",
+  "rain_missing": 1
+}

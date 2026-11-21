@@ -1,0 +1,98 @@
+{
+  "initial_rows": 350000,
+  "initial_columns": 31,
+  "steps": {
+    "deduplication": {
+      "duplicates_removed": 3500,
+      "rows_after_dedup": 346500
+    },
+    "spelling_corrections": {
+      "district_corrections": 6930,
+      "crop_corrections": 8662,
+      "valid_districts": [
+        "Amravati",
+        "Bhandara",
+        "Chandrapur",
+        "Nagpur",
+        "Wardha",
+        "Yavatmal"
+      ],
+      "valid_crops": [
+        "cotton",
+        "gram",
+        "jowar",
+        "rice",
+        "soybean",
+        "tur",
+        "wheat"
+      ]
+    },
+    "date_harmonization": {
+      "standardized_count": 346500,
+      "nat_count": 0,
+      "date_range": [
+        "2006-01-03",
+        "2024-12-14"
+      ]
+    },
+    "price_unit_standardization": {
+      "rs_kg_detected_and_converted": 60613,
+      "evaluation": {
+        "true_positives": 60613,
+        "false_positives": 0,
+        "false_negatives": 24,
+        "precision": 1.0,
+        "recall": 0.9996,
+        "f1_score": 0.9998
+      }
+    },
+    "yield_unit_standardization": {
+      "tonnes_to_quintal_count": 8655,
+      "kg_to_quintal_count": 9005,
+      "total_yield_unit_fixes": 17660,
+      "evaluation": {
+        "tonnes_precision": 1.0,
+        "tonnes_recall": 0.9992,
+        "kg_precision": 0.9619,
+        "kg_recall": 1.0
+      }
+    },
+    "rainfall_imputation": {
+      "missing_cells_imputed": 355818,
+      "rows_with_rain_missing": 211075,
+      "imputation_grouping": [
+        "district",
+        "year",
+        "season"
+      ],
+      "preserved_raw_columns": [
+        "rainfall_w01_raw",
+        "rainfall_w02_raw",
+        "rainfall_w03_raw",
+        "rainfall_w04_raw",
+        "rainfall_w05_raw",
+        "rainfall_w06_raw",
+        "rainfall_w07_raw",
+        "rainfall_w08_raw",
+        "rainfall_w09_raw",
+        "rainfall_w10_raw",
+        "rainfall_w11_raw",
+        "rainfall_w12_raw",
+        "rainfall_w13_raw",
+        "rainfall_w14_raw",
+        "rainfall_w15_raw",
+        "rainfall_w16_raw"
+      ]
+    },
+    "outlier_flagging": {
+      "area_outliers": 200,
+      "price_outliers": 150,
+      "soil_ph_outliers": 150,
+      "yield_outliers": 0,
+      "total_unique_outlier_rows": 500
+    }
+  },
+  "final_rows": 346500,
+  "final_columns": 59,
+  "elapsed_seconds": 31.5
+}

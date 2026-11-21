@@ -1,0 +1,346 @@
+{
+  "val": {
+    "mae": 1.474377476908546,
+    "rmse": 2.031132989998851,
+    "r2": 0.8705003965779762,
+    "smape": 9.868787380725658,
+    "bias": -0.3695670776972515,
+    "n": 54379,
+    "baseline_last_year": {
+      "mae": 4.25024093859762,
+      "rmse": 5.930132229634203,
+      "r2": -0.10387646186807542,
+      "smape": 33.36813200519298,
+      "bias": -3.0271121940454955,
+      "n": 54379
+    },
+    "gain_vs_baseline_last_year_pct": 65.31073183359291,
+    "baseline_normal": {
+      "mae": 2.007416528616572,
+      "rmse": 2.676759929907652,
+      "r2": 0.7750890690905246,
+      "smape": 12.599789082979838,
+      "bias": -0.41094525554532935,
+      "n": 54379
+    },
+    "gain_vs_baseline_normal_pct": 26.553485243811075,
+    "by_year": {
+      "2019": {
+        "model": 1.471741237099094,
+        "last_year_baseline": 8.837145415234506,
+        "normal_baseline": 2.0021368740622805
+      },
+      "2020": {
+        "model": 1.4780733323393136,
+        "last_year_baseline": 1.9670885719024713,
+        "normal_baseline": 2.016494271547181
+      },
+      "2021": {
+        "model": 1.473320478798904,
+        "last_year_baseline": 1.9798779445600965,
+        "normal_baseline": 2.003639015329862
+      }
+    },
+    "procurement_by_district_t_per_year": [
+      {
+        "district": "Amravati",
+        "actual_t": 10918.96,
+        "pred_t": 10659.12,
+        "abs_err_t": 1012.01,
+        "net_err_t": -259.84,
+        "abs_err_pct": 9.27,
+        "net_err_pct": -2.38
+      },
+      {
+        "district": "Bhandara",
+        "actual_t": 9408.83,
+        "pred_t": 9231.59,
+        "abs_err_t": 870.98,
+        "net_err_t": -177.24,
+        "abs_err_pct": 9.26,
+        "net_err_pct": -1.88
+      },
+      {
+        "district": "Chandrapur",
+        "actual_t": 9756.39,
+        "pred_t": 9515.48,
+        "abs_err_t": 910.43,
+        "net_err_t": -240.92,
+        "abs_err_pct": 9.33,
+        "net_err_pct": -2.47
+      },
+      {
+        "district": "Nagpur",
+        "actual_t": 13103.11,
+        "pred_t": 12810.47,
+        "abs_err_t": 1201.41,
+        "net_err_t": -292.63,
+        "abs_err_pct": 9.17,
+        "net_err_pct": -2.23
+      },
+      {
+        "district": "Wardha",
+        "actual_t": 9804.93,
+        "pred_t": 9578.58,
+        "abs_err_t": 862.64,
+        "net_err_t": -226.35,
+        "abs_err_pct": 8.8,
+        "net_err_pct": -2.31
+      },
+      {
+        "district": "Yavatmal",
+        "actual_t": 11991.12,
+        "pred_t": 11686.88,
+        "abs_err_t": 1106.42,
+        "net_err_t": -304.24,
+        "abs_err_pct": 9.23,
+        "net_err_pct": -2.54
+      }
+    ],
+    "procurement_total_abs_err_t_per_year": 5963.8846204743,
+    "procurement_total_net_err_pct": -2.310156265233298
+  },
+  "test": {
+    "mae": 1.5046584338792353,
+    "rmse": 2.069918675725991,
+    "r2": 0.8716033170291502,
+    "smape": 9.768756701810577,
+    "bias": -0.25503303146227657,
+    "n": 54433,
+    "baseline_last_year": {
+      "mae": 2.0180823030147153,
+      "rmse": 2.7125215634522992,
+      "r2": 0.7795075937500395,
+      "smape": 12.328101219506005,
+      "bias": -0.16002211893520477,
+      "n": 54433
+    },
+    "gain_vs_baseline_last_year_pct": 25.441175930659565,
+    "baseline_normal": {
+      "mae": 2.0359090907081683,
+      "rmse": 2.7244915333063626,
+      "r2": 0.7775572971031077,
+      "smape": 12.443126284047239,
+      "bias": -0.30838590846547675,
+      "n": 54433
+    },
+    "gain_vs_baseline_normal_pct": 26.094026459901674,
+    "by_year": {
+      "2022": {
+        "model": 1.4886432709249058,
+        "last_year_baseline": 2.0040750537278886,
+        "normal_baseline": 2.020481542515821
+      },
+      "2023": {
+        "model": 1.5194887758057116,
+        "last_year_baseline": 2.029918080813664,
+        "normal_baseline": 2.0508793790550377
+      },
+      "2024": {
+        "model": 1.5058857736066513,
+        "last_year_baseline": 2.0202844737565266,
+        "normal_baseline": 2.036411219345887
+      }
+    },
+    "procurement_by_district_t_per_year": [
+      {
+        "district": "Amravati",
+        "actual_t": 11303.61,
+        "pred_t": 11120.76,
+        "abs_err_t": 1027.0,
+        "net_err_t": -182.85,
+        "abs_err_pct": 9.09,
+        "net_err_pct": -1.62
+      },
+      {
+        "district": "Bhandara",
+        "actual_t": 9468.79,
+        "pred_t": 9360.42,
+        "abs_err_t": 889.42,
+        "net_err_t": -108.37,
+        "abs_err_pct": 9.39,
+        "net_err_pct": -1.14
+      },
+      {
+        "district": "Chandrapur",
+        "actual_t": 9750.08,
+        "pred_t": 9616.22,
+        "abs_err_t": 903.47,
+        "net_err_t": -133.86,
+        "abs_err_pct": 9.27,
+        "net_err_pct": -1.37
+      },
+      {
+        "district": "Nagpur",
+        "actual_t": 13431.27,
+        "pred_t": 13213.29,
+        "abs_err_t": 1229.96,
+        "net_err_t": -217.97,
+        "abs_err_pct": 9.16,
+        "net_err_pct": -1.62
+      },
+      {
+        "district": "Wardha",
+        "actual_t": 10216.51,
+        "pred_t": 10064.77,
+        "abs_err_t": 903.07,
+        "net_err_t": -151.74,
+        "abs_err_pct": 8.84,
+        "net_err_pct": -1.49
+      },
+      {
+        "district": "Yavatmal",
+        "actual_t": 12632.05,
+        "pred_t": 12431.46,
+        "abs_err_t": 1157.58,
+        "net_err_t": -200.59,
+        "abs_err_pct": 9.16,
+        "net_err_pct": -1.59
+      }
+    ],
+    "procurement_total_abs_err_t_per_year": 6110.500021182633,
+    "procurement_total_net_err_pct": -1.4900367910167307
+  },
+  "val_test_gap_pct": 2.0538130461801347,
+  "high_risk": {
+    "val": {
+      "recall": 0.26759410801963995,
+      "precision": 0.7002141327623126,
+      "pr_auc": 0.4879478282971223,
+      "roc_auc": 0.9523947635339063,
+      "threshold": 0.42209840472682736,
+      "n_pos": 1222,
+      "prevalence": 0.02247191011235955
+    },
+    "val_baseline": {
+      "recall": 0.0,
+      "precision": null,
+      "pr_auc": 0.018489813353450776,
+      "roc_auc": 0.4350471691998937,
+      "threshold": null,
+      "n_pos": 1222,
+      "prevalence": 0.02247191011235955
+    },
+    "test": {
+      "recall": 0.32034733630603146,
+      "precision": 0.7,
+      "pr_auc": 0.5875333853992554,
+      "roc_auc": 0.9295246880653106,
+      "threshold": 0.3434229477878501,
+      "n_pos": 4261,
+      "prevalence": 0.0782797200227803
+    },
+    "test_baseline": {
+      "recall": 0.0,
+      "precision": null,
+      "pr_auc": 0.10771203497058236,
+      "roc_auc": 0.6019485647148979,
+      "threshold": null,
+      "n_pos": 4261,
+      "prevalence": 0.0782797200227803
+    },
+    "oof_cv_drought_years": {
+      "recall": 0.9984470347498813,
+      "precision": 0.7,
+      "pr_auc": 0.9863491269822405,
+      "roc_auc": 0.9861016928270965,
+      "threshold": -0.25279139624282676,
+      "n_pos": 54734,
+      "prevalence": 0.49927481368640936
+    },
+    "oof_cv_baseline": {
+      "recall": 0.19629480761501078,
+      "precision": 0.7085669062850359,
+      "pr_auc": 0.606777835992959,
+      "roc_auc": 0.5601455179966839,
+      "threshold": 0.5230235740599327,
+      "n_pos": 54734,
+      "prevalence": 0.49927481368640936
+    }
+  },
+  "shap_top_drivers": [
+    {
+      "feature": "cum_rainfall_june_aug",
+      "mean_abs_shap_q_ha": 1.9899445518724772,
+      "direction_spearman": 0.6225623747427567,
+      "expected_sign": 1,
+      "sensible": true
+    },
+    {
+      "feature": "rainfall_vs_normal_ratio",
+      "mean_abs_shap_q_ha": 1.512054470876171,
+      "direction_spearman": 0.6515292702822324,
+      "expected_sign": 1,
+      "sensible": true
+    },
+    {
+      "feature": "season",
+      "mean_abs_shap_q_ha": 0.3077825770149823,
+      "direction_spearman": 0.11668992993929841,
+      "expected_sign": null,
+      "sensible": true
+    },
+    {
+      "feature": "soil_organic_carbon_pct",
+      "mean_abs_shap_q_ha": 0.30547661645987745,
+      "direction_spearman": 0.9796111004378834,
+      "expected_sign": 1,
+      "sensible": true
+    },
+    {
+      "feature": "soil_ph",
+      "mean_abs_shap_q_ha": 0.17950315621322777,
+      "direction_spearman": -0.13402270267519473,
+      "expected_sign": null,
+      "sensible": true
+    },
+    {
+      "feature": "sowing_window_rainfall",
+      "mean_abs_shap_q_ha": 0.15928774909267573,
+      "direction_spearman": 0.7712971348100822,
+      "expected_sign": 1
+    },
+    {
+      "feature": "crop",
+      "mean_abs_shap_q_ha": 0.12086070990896197,
+      "direction_spearman": 0.1974281383972784,
+      "expected_sign": null
+    },
+    {
+      "feature": "soil_n_kg_ha",
+      "mean_abs_shap_q_ha": 0.08163773236607193,
+      "direction_spearman": 0.9662938775948854,
+      "expected_sign": null
+    },
+    {
+      "feature": "soil_k_kg_ha",
+      "mean_abs_shap_q_ha": 0.07066888971347769,
+      "direction_spearman": 0.955761619404663,
+      "expected_sign": null
+    },
+    {
+      "feature": "soil_p_kg_ha",
+      "mean_abs_shap_q_ha": 0.06019892430757264,
+      "direction_spearman": 0.9535060563797471,
+      "expected_sign": null
+    }
+  ],
+  "criterion_c_pass": true,
+  "pass_fail": [
+    {
+      "criterion": "(a) Final model beats baseline by >= 15% (MAE)",
+      "result": "PASS",
+      "detail": "vs last-year baseline: val +65.3%, test +25.4% | vs stronger 5-season-normal baseline: val +26.6%, test +26.1%"
+    },
+    {
+      "criterion": "(b) Test MAE within 5% of validation MAE",
+      "result": "PASS",
+      "detail": "val 1.474 vs test 1.505 q/ha (gap +2.1%)"
+    },
+    {
+      "criterion": "(c) Top-5 SHAP drivers make agronomic sense",
+      "result": "PASS",
+      "detail": "cum_rainfall_june_aug (ok); rainfall_vs_normal_ratio (ok); season (ok); soil_organic_carbon_pct (ok); soil_ph (ok)"
+    }
+  ]
+}

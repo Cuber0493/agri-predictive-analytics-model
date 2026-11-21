@@ -1,0 +1,40 @@
+{
+  "features": [
+    "cum_rainfall_june_aug",
+    "rainfall_last_14d",
+    "rainfall_last_30d",
+    "sowing_window_rainfall",
+    "rainfall_vs_normal_ratio",
+    "longest_dry_spell_aug",
+    "rainy_weeks_count",
+    "heat_stress_days",
+    "rain_missing_aug",
+    "soil_organic_carbon_pct",
+    "soil_n_kg_ha",
+    "soil_p_kg_ha",
+    "soil_k_kg_ha",
+    "soil_ph",
+    "soil_n_p_ratio",
+    "soil_n_k_ratio",
+    "soil_p_k_ratio",
+    "area_ha",
+    "district",
+    "crop",
+    "season",
+    "yield_anchor_5yr_p75"
+  ],
+  "anchor": "yield_anchor_5yr_p75",
+  "target": "yield_quintal_per_ha",
+  "model_kind": "lgbm",
+  "feature_set": "A: weather + soil + crop/district",
+  "params": {
+    "n_estimators": 410,
+    "learning_rate": 0.05872031730223161,
+    "num_leaves": 36,
+    "min_child_samples": 116,
+    "subsample": 0.9849549260809971,
+    "colsample_bytree": 0.9162213204002109,
+    "reg_lambda": 2.2948683681130553
+  },
+  "trained_on": "2008-2018"
+}

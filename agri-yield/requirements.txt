@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+scikit-learn>=1.4
+lightgbm
+optuna
+shap
+matplotlib
+seaborn
+python-pptx
+python-docx
+joblib
+nbformat
+nbconvert
+ipykernel
+jupyter
